@@ -2,7 +2,7 @@
 go install golang.org/x/tools/gopls@latest
 
 # install neovim
-curl -OL https://github.com/neovim/neovim/releases/download/v0.6.1/nvim-linux64.tar.gz
+curl -OL https://github.com/neovim/neovim/releases/download/v0.7.2/nvim-linux64.tar.gz
 tar --strip-components=1 -xvf nvim-linux64.tar.gz -C /usr
 rm nvim-linux64.tar.gz
 
